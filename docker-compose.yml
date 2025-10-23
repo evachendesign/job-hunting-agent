@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    image: job-hunt-api:latest
+    container_name: job-hunt-api
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+

@@ -1,0 +1,22 @@
+# Git
+.git
+.gitignore
+
+# Python artifacts
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+
+# Virtual envs
+venv
+
+# Local env files
+.env
+.env.*
+
+# IDE/OS
+.vscode
+.idea
+.DS_Store
+
