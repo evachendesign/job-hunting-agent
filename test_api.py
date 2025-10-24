@@ -5,7 +5,7 @@ import sys
 
 
 def main() -> int:
-    url = os.getenv("API_URL", "http://localhost:8000/apply")
+    url = os.getenv("API_URL", "job-hunting-agent-production-eccc.up.railway.app/apply")
 
     sample_resume = (
         "Eva Chen — Product Designer, 4 years designing mobile and web apps. "
